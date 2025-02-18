@@ -18,7 +18,7 @@ app.get("/", (req, res) => {
 
   if (day === 0 || day === 6) {
     type = "the weekend";
-    adv = "it's time to have some fun";
+    adv = "it's time to have fun";
   }
 
   res.render("index.ejs", {
